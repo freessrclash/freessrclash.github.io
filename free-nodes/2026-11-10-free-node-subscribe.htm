@@ -292,22 +292,13 @@ A: 你可以选择更稳定的服务器、更改网络设置，或者优化会�
 <div class="clearfix"></div>
 <div class="col-md-12 mt-5">
         <p>上一个：<a href="/free-nodes/vless-node-2026-11-9.htm">Free SSR Clash - 11月9日21.6M/S|免费Trojan节点/V2ray节点/Clash节点/Shadowrocket节点/Singbox节点/SSR节点订阅链接分享</a></p>
+        <p>下一个：<a href="/free-nodes/free-node-subscribe-links-2026-11-11.htm">Free SSR Clash - 11月11日19M/S|免费SSR节点/Clash节点/Shadowrocket节点/Singbox节点/V2ray节点/Trojan节点订阅链接分享</a></p>
     </div>
 <h4>FAQ</h4>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>为什么使用 CDN 后仍然能被封？如何规避？</h5></div>
+    <div class="panel-heading"><h5>Surfboard 与 Clash 有什么关系？</h5></div>
     <div class="panel-body">
-        若 CDN 回源 IP 或配置不当可能泄露真实服务器信息，或者 CDN 本身被目标防火墙识别。应启用完整的反向代理配置、隐藏源站 IP 与禁用不必要的服务，必要时使用多级中转或更换 CDN 供应商。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>Hiddify Next 如何设置用户带宽限制？</h5></div>
-    <div class="panel-body">
-        管理员可为每个用户设置上传和下载带宽上限。超出限制可自动降速或阻止访问，保证服务器资源合理分配，避免单用户占用过多带宽，提高整体公平性和使用效率。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>QuantumultX 的重写规则能做什么？</h5></div>
-    <div class="panel-body">
-        重写（Rewrite）可用于修改请求头、屏蔽广告、替换响应内容等。通过正则匹配目标请求可实现页面定制与功能增强，但应谨慎使用以避免影响正常网站加载与安全验证。<hr />    </div>
+        Surfboard 是一款基于 Clash 核心的 iOS 应用，专为苹果用户设计。它通过友好的界面实现分流管理、节点切换和延迟测试等功能。与 Clash 类似，Surfboard 也支持订阅更新和多种代理协议，兼容性非常好。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>如何用 iptables 限制 V2Ray 服务的访问来源？</h5></div>
@@ -315,9 +306,9 @@ A: 你可以选择更稳定的服务器、更改网络设置，或者优化会�
         使用 iptables 规则仅允许可信 IP 或 CDN 的中转 IP 访问服务端口，例如 `iptables -A INPUT -p tcp -s <trusted_ip> --dport 443 -j ACCEPT`，并在默认策略下拒绝其他来源，从而降低被扫描与滥用风险。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>SSR 的协议插件如何增强连接稳定性？</h5></div>
+    <div class="panel-heading"><h5>Hysteria2 的 QUIC 协议如何降低延迟？</h5></div>
     <div class="panel-body">
-        SSR 的协议插件可以增加流量的伪装特性，模拟常见协议或浏览器行为，从而降低被识别和封锁的风险。这对不稳定网络或高封锁环境尤其有帮助。<hr />    </div>
+        QUIC 协议基于 UDP，多路复用和拥塞控制优化，可减少握手延迟和包重传次数。Hysteria2 利用 QUIC 的特性，使高延迟或丢包网络下依然保持低延迟和高稳定性。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>Mellow 的 TUN 模式是否支持全局游戏加速？</h5></div>
@@ -325,9 +316,9 @@ A: 你可以选择更稳定的服务器、更改网络设置，或者优化会�
         支持。TUN 模式拦截系统 IP 层流量，实现全局代理，确保游戏和其他应用的 UDP/TCP 流量都走代理节点，从而降低延迟，提高游戏体验。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>Surfboard 与 Clash 有什么关系？</h5></div>
+    <div class="panel-heading"><h5>QuantumultX 的重写规则能做什么？</h5></div>
     <div class="panel-body">
-        Surfboard 是一款基于 Clash 核心的 iOS 应用，专为苹果用户设计。它通过友好的界面实现分流管理、节点切换和延迟测试等功能。与 Clash 类似，Surfboard 也支持订阅更新和多种代理协议，兼容性非常好。<hr />    </div>
+        重写（Rewrite）可用于修改请求头、屏蔽广告、替换响应内容等。通过正则匹配目标请求可实现页面定制与功能增强，但应谨慎使用以避免影响正常网站加载与安全验证。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>VLESS 是否比 Trojan 更稳定？</h5></div>
@@ -335,14 +326,24 @@ A: 你可以选择更稳定的服务器、更改网络设置，或者优化会�
         两者都非常稳定，但 VLESS 在多平台兼容性上略优，而 Trojan 在 HTTPS 伪装和 TLS 安全性上更强。选择取决于服务器环境与具体需求，两者皆为高性能协议。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>Sing-box 是否兼容 Clash 配置文件？</h5></div>
+    <div class="panel-heading"><h5>为什么使用 CDN 后仍然能被封？如何规避？</h5></div>
     <div class="panel-body">
-        部分兼容。Sing-box 支持从 Clash 订阅转换工具导入节点，但配置语法略有不同。建议使用第三方订阅转换器，如 sub-converter，将 Clash 格式转换为 Sing-box JSON 格式使用。<hr />    </div>
+        若 CDN 回源 IP 或配置不当可能泄露真实服务器信息，或者 CDN 本身被目标防火墙识别。应启用完整的反向代理配置、隐藏源站 IP 与禁用不必要的服务，必要时使用多级中转或更换 CDN 供应商。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>Hysteria2 的 QUIC 协议如何降低延迟？</h5></div>
+    <div class="panel-heading"><h5>SSR 的协议插件如何增强连接稳定性？</h5></div>
     <div class="panel-body">
-        QUIC 协议基于 UDP，多路复用和拥塞控制优化，可减少握手延迟和包重传次数。Hysteria2 利用 QUIC 的特性，使高延迟或丢包网络下依然保持低延迟和高稳定性。    </div>
+        SSR 的协议插件可以增加流量的伪装特性，模拟常见协议或浏览器行为，从而降低被识别和封锁的风险。这对不稳定网络或高封锁环境尤其有帮助。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Hiddify Next 如何设置用户带宽限制？</h5></div>
+    <div class="panel-body">
+        管理员可为每个用户设置上传和下载带宽上限。超出限制可自动降速或阻止访问，保证服务器资源合理分配，避免单用户占用过多带宽，提高整体公平性和使用效率。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Sing-box 是否兼容 Clash 配置文件？</h5></div>
+    <div class="panel-body">
+        部分兼容。Sing-box 支持从 Clash 订阅转换工具导入节点，但配置语法略有不同。建议使用第三方订阅转换器，如 sub-converter，将 Clash 格式转换为 Sing-box JSON 格式使用。    </div>
 </div>
 <div class="panel panel-default mt-5">
     <div class="panel-heading">
@@ -390,16 +391,16 @@ A: 你可以选择更稳定的服务器、更改网络设置，或者优化会�
     </div>
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
-                        <li class="py-2"><a href="/free-nodes/today-vless-node-2026-10-29.htm" title="Free SSR Clash - 10月29日18.8M/S|免费Trojan节点/Shadowrocket节点/Singbox节点/V2ray节点/Clash节点/SSR节点订阅链接分享">Free SSR Clash - 10月29日18.8M/S|免费Trojan节点/Shadowrocket节点/Singbox节点/V2ray节点/Clash节点/SSR节点订阅链接分享</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/node-share-links-2026-11-5.htm" title="Free SSR Clash - 11月5日19.5M/S|免费SSR节点/Clash节点/Shadowrocket节点/Singbox节点/V2ray节点/Trojan节点订阅链接分享">Free SSR Clash - 11月5日19.5M/S|免费SSR节点/Clash节点/Shadowrocket节点/Singbox节点/V2ray节点/Trojan节点订阅链接分享</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-10-30-vless-node-github.htm" title="Free SSR Clash - 10月30日18.3M/S|免费Singbox节点/Trojan节点/Clash节点/V2ray节点/Shadowrocket节点/SSR节点订阅链接分享">Free SSR Clash - 10月30日18.3M/S|免费Singbox节点/Trojan节点/Clash节点/V2ray节点/Shadowrocket节点/SSR节点订阅链接分享</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/free-node-subscribe-links-2026-10-15.htm" title="Free SSR Clash - 10月15日18.3M/S|免费Clash节点/Shadowrocket节点/Trojan节点/Singbox节点/SSR节点/V2ray节点订阅链接分享">Free SSR Clash - 10月15日18.3M/S|免费Clash节点/Shadowrocket节点/Trojan节点/Singbox节点/SSR节点/V2ray节点订阅链接分享</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/vless-node-2026-10-17.htm" title="Free SSR Clash - 10月17日19.1M/S|免费SSR节点/Clash节点/Shadowrocket节点/Trojan节点/V2ray节点/Singbox节点订阅链接分享">Free SSR Clash - 10月17日19.1M/S|免费SSR节点/Clash节点/Shadowrocket节点/Trojan节点/V2ray节点/Singbox节点订阅链接分享</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/today-vless-node-2026-10-21.htm" title="Free SSR Clash - 10月21日22.2M/S|免费Singbox节点/V2ray节点/Trojan节点/SSR节点/Shadowrocket节点/Clash节点订阅链接分享">Free SSR Clash - 10月21日22.2M/S|免费Singbox节点/V2ray节点/Trojan节点/SSR节点/Shadowrocket节点/Clash节点订阅链接分享</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-10-22-vless-windows.htm" title="Free SSR Clash - 10月22日22.9M/S|免费SSR节点/V2ray节点/Trojan节点/Shadowrocket节点/Clash节点/Singbox节点订阅链接分享">Free SSR Clash - 10月22日22.9M/S|免费SSR节点/V2ray节点/Trojan节点/Shadowrocket节点/Clash节点/Singbox节点订阅链接分享</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-11-10-free-node-subscribe.htm" title="Free SSR Clash - 11月10日18.1M/S|免费SSR节点/V2ray节点/Clash节点/Singbox节点/Trojan节点/Shadowrocket节点订阅链接分享">Free SSR Clash - 11月10日18.1M/S|免费SSR节点/V2ray节点/Clash节点/Singbox节点/Trojan节点/Shadowrocket节点订阅链接分享</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-10-24-vless-windows.htm" title="Free SSR Clash - 10月24日18.8M/S|免费Trojan节点/V2ray节点/Singbox节点/SSR节点/Shadowrocket节点/Clash节点订阅链接分享">Free SSR Clash - 10月24日18.8M/S|免费Trojan节点/V2ray节点/Singbox节点/SSR节点/Shadowrocket节点/Clash节点订阅链接分享</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-10-28-free-node-subscribe.htm" title="Free SSR Clash - 10月28日21.5M/S|免费Shadowrocket节点/SSR节点/Trojan节点/Clash节点/V2ray节点/Singbox节点订阅链接分享">Free SSR Clash - 10月28日21.5M/S|免费Shadowrocket节点/SSR节点/Trojan节点/Clash节点/V2ray节点/Singbox节点订阅链接分享</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-10-14-node-share.htm" title="Free SSR Clash - 10月14日20.9M/S|免费V2ray节点/Clash节点/Trojan节点/Singbox节点/Shadowrocket节点/SSR节点订阅链接分享">Free SSR Clash - 10月14日20.9M/S|免费V2ray节点/Clash节点/Trojan节点/Singbox节点/Shadowrocket节点/SSR节点订阅链接分享</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-11-2-vless-windows.htm" title="Free SSR Clash - 11月2日18.8M/S|免费Singbox节点/Clash节点/Shadowrocket节点/SSR节点/V2ray节点/Trojan节点订阅链接分享">Free SSR Clash - 11月2日18.8M/S|免费Singbox节点/Clash节点/Shadowrocket节点/SSR节点/V2ray节点/Trojan节点订阅链接分享</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/vless-node-2026-11-9.htm" title="Free SSR Clash - 11月9日21.6M/S|免费Trojan节点/V2ray节点/Clash节点/Shadowrocket节点/Singbox节点/SSR节点订阅链接分享">Free SSR Clash - 11月9日21.6M/S|免费Trojan节点/V2ray节点/Clash节点/Shadowrocket节点/Singbox节点/SSR节点订阅链接分享</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/free-node-subscribe-links-2026-10-25.htm" title="Free SSR Clash - 10月25日22.5M/S|免费Shadowrocket节点/Trojan节点/V2ray节点/SSR节点/Singbox节点/Clash节点订阅链接分享">Free SSR Clash - 10月25日22.5M/S|免费Shadowrocket节点/Trojan节点/V2ray节点/SSR节点/Singbox节点/Clash节点订阅链接分享</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-11-4-free-subscribe-node.htm" title="Free SSR Clash - 11月4日22.3M/S|免费Clash节点/SSR节点/Shadowrocket节点/V2ray节点/Trojan节点/Singbox节点订阅链接分享">Free SSR Clash - 11月4日22.3M/S|免费Clash节点/SSR节点/Shadowrocket节点/V2ray节点/Trojan节点/Singbox节点订阅链接分享</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-11-12-free-node-subscribe.htm" title="Free SSR Clash - 11月12日21.2M/S|免费Shadowrocket节点/V2ray节点/SSR节点/Clash节点/Trojan节点/Singbox节点订阅链接分享">Free SSR Clash - 11月12日21.2M/S|免费Shadowrocket节点/V2ray节点/SSR节点/Clash节点/Trojan节点/Singbox节点订阅链接分享</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/node-share-links-2026-10-13.htm" title="Free SSR Clash - 10月13日19.5M/S|免费SSR节点/Trojan节点/V2ray节点/Shadowrocket节点/Singbox节点/Clash节点订阅链接分享">Free SSR Clash - 10月13日19.5M/S|免费SSR节点/Trojan节点/V2ray节点/Shadowrocket节点/Singbox节点/Clash节点订阅链接分享</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/today-vless-node-2026-11-13.htm" title="Free SSR Clash - 11月13日22.4M/S|免费SSR节点/Shadowrocket节点/Trojan节点/Singbox节点/V2ray节点/Clash节点订阅链接分享">Free SSR Clash - 11月13日22.4M/S|免费SSR节点/Shadowrocket节点/Trojan节点/Singbox节点/V2ray节点/Clash节点订阅链接分享</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/free-vless-node-2026-11-3.htm" title="Free SSR Clash - 11月3日19.5M/S|免费Trojan节点/SSR节点/Shadowrocket节点/Clash节点/V2ray节点/Singbox节点订阅链接分享">Free SSR Clash - 11月3日19.5M/S|免费Trojan节点/SSR节点/Shadowrocket节点/Clash节点/V2ray节点/Singbox节点订阅链接分享</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/node-share-links-2026-11-15.htm" title="Free SSR Clash - 11月15日21.6M/S|免费Clash节点/Singbox节点/SSR节点/Shadowrocket节点/V2ray节点/Trojan节点订阅链接分享">Free SSR Clash - 11月15日21.6M/S|免费Clash节点/Singbox节点/SSR节点/Shadowrocket节点/V2ray节点/Trojan节点订阅链接分享</a><hr /></li>
                     </ul>
     </div>
 </div>
@@ -411,7 +412,7 @@ A: 你可以选择更稳定的服务器、更改网络设置，或者优化会�
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
                         <li class="py-2">
-                <h4><span class="badge" style="float: right;">10</span> <a href="/date/2026-11/" title="2026-11 归档">2026-11</a></h4>
+                <h4><span class="badge" style="float: right;">17</span> <a href="/date/2026-11/" title="2026-11 归档">2026-11</a></h4>
             </li>
                         <li class="py-2">
                 <h4><span class="badge" style="float: right;">21</span> <a href="/date/2026-10/" title="2026-10 归档">2026-10</a></h4>
